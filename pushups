@@ -1,4 +1,6 @@
 days = 0
+pushups = 0
 while days < 365:
     days = days + 1
-    return days
+    pushups = pushups + days
+    print("On day", days, "you have done", pushups, "pushups")
