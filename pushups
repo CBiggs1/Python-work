@@ -1,0 +1,4 @@
+days = 0
+while days < 365:
+    days = days + 1
+    return days
